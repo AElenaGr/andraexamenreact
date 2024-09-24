@@ -1,0 +1,72 @@
+
+.card {
+  background-color: #E5F6FF; 
+  border: 1px solid #DDDDDD; 
+  border-radius: 8px;
+  padding: 16px; 
+  max-width: 400px;
+  min-width: 300px; 
+  margin: 24px auto; 
+  text-align: center;
+}
+
+.card-image {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  aspect-ratio: 16 / 9; 
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333; 
+  margin-bottom: 8px;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.card-description {
+  font-size: 20px; 
+  font-weight: 400;
+  color: #666666; 
+  margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card-button {
+  background-color: #007ACC; 
+  color: #FFFFFF; 
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif; 
+  height: 48px; 
+}
+
+.card-button:hover {
+  background-color: #005FA3; 
+}
+
+/* Contenedor de tarjetas */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  gap: 24px; 
+  justify-items: center;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
