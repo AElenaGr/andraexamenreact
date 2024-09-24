@@ -8,7 +8,7 @@ const Card = ({ title, description, image, link }) => (
     <h2 className="card-title">{title}</h2>
     <p className="card-description">{description}</p>
     <a href={link} className="card-button" target="_blank" rel="noopener noreferrer">
-      Aprender más
+      Más info
     </a>
   </div>
 );
