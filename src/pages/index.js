@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import './index.css';
-import { GatsbyImage } from "gatsby-plugin-image"; //importar gatsby images para ver foto en json
+
 
 const Index = () => {
   return (
